@@ -44,7 +44,7 @@ Questo progetto è coperto da **licenza MIT** - [link](LICENSE)<br/>
 Per un supporto o aiuto:<br/>
 - Crea un issue<br/>
 - Invia un pull request<br/>
-- Contattami via mail - [mail](mailto:giuseppe@compagno.cloud)<br/>
+- Contattami via mail - [mail](mailto:info@compagno.cloud)<br/>
 
 
 ## 🔍 Version History
