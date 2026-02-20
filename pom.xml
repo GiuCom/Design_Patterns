@@ -8,6 +8,7 @@
     <artifactId>Design_Patterns</artifactId>
     <version>1.0.0</version>
 
+    <!-- Test -->
 
     <properties>
         <!-- Informazioni base -->
