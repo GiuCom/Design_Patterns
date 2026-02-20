@@ -49,7 +49,7 @@ Per un supporto o aiuto:<br/>
 
 ## 🔍 Version History
 
-- 1.0.0: Initial release<br/>
+- 1.0.0: Fase iniziale<br/>
 
 
 --- ❤️ by Giuseppe ♾️ ---
