@@ -46,7 +46,8 @@
         <!-- -->
 
         <!-- Variabili si sistema -->
-        <mainClass.singleton>cloud.compagno.designpatterns.creazionali.singleton.Main</mainClass.singleton>
+        <singleton.versione>1.0.0</singleton.versione>
+        <singleton.mainClass>cloud.compagno.designpatterns.creazionali.singleton.Main</singleton.mainClass>
         <!-- -->
     </properties>
 

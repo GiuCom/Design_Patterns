@@ -12,6 +12,7 @@
 
     <groupId>cloud.compagno.designpatterns.creazionali</groupId>
     <artifactId>singleton</artifactId>
+    <name>${project.artifactId}-${singleton.versione}</name>
     <packaging>jar</packaging>
 
     <build>
@@ -24,7 +25,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>${mainClass.singleton}</mainClass>
+                            <mainClass>${singleton.mainClass}</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
