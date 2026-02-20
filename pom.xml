@@ -7,8 +7,12 @@
     <groupId>cloud.compagno</groupId>
     <artifactId>Design_Patterns</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
 
-    <!-- Test -->
+    <modules>
+        <module>designpatterns/creazionali/singleton</module>
+    </modules>
+
 
     <properties>
         <!-- Informazioni base -->
@@ -38,10 +42,11 @@
         <junit-jupiter-api.versione>6.0.2</junit-jupiter-api.versione>
         <maven-compiler-plugin.versione>3.15.0</maven-compiler-plugin.versione>
         <maven-assembly-plugin.versione>3.8.0</maven-assembly-plugin.versione>
+        <maven-site-plugin.versione>3.21.0</maven-site-plugin.versione>
         <!-- -->
 
         <!-- Variabili si sistema -->
-        <mainClass>cloud.compagno.Main</mainClass>
+        <mainClass.singleton>cloud.compagno.designpatterns.creazionali.singleton.Main</mainClass.singleton>
         <!-- -->
     </properties>
 
@@ -92,12 +97,11 @@
 
     <build>
         <plugins>
-
             <!-- File encoding -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
-                <version>3.21.0 </version>
+                <version>${maven-site-plugin.versione}</version>
                 <configuration>
                     <outputEncoding>${project.reporting.outputEncoding}</outputEncoding>
                 </configuration>
@@ -114,31 +118,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Assembly Plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <version>${maven-assembly-plugin.versione}</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>${mainClass}</mainClass>
-                        </manifest>
-                    </archive>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>make-assembly</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 

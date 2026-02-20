@@ -1,5 +1,5 @@
 # Design Patterns
-![logo-java-256.png](documenti/img/logo-java-256.png)
+![logo-java-256.png](../../../documenti/img/logo-java-256.png)
 
 [![Static Badge](https://img.shields.io/badge/Java_version-25-blue)](https://openjdk.org/projects/jdk/25/)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GiuCom/Design_Patterns/blob/main/LICENSE)<br/>
@@ -36,7 +36,7 @@ Rudolf Pecinovský, "***OOP – Learn Object Oriented Thinking and Programming**
 
 ## ⚖️ Licenza
 
-Questo progetto è coperto da **licenza MIT** - [link](LICENSE)<br/>
+Questo progetto è coperto da **licenza MIT** - [link](../../../LICENSE)<br/>
 
 
 ## 📞 Contact
