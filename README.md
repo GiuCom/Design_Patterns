@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Design-Patterns
-Design Patterns descritti con esempi in linguaggio Java
-=======
 # Design Patterns
 ![logo-java-256.png](src/main/java/cloud/compagno/designpatterns/documenti/img/logo-java-256.png)
 
@@ -48,7 +44,7 @@ Questo progetto è coperto da **licenza MIT** - [link](LICENSE)<br/>
 Per un supporto o aiuto:<br/>
 - Crea un issue<br/>
 - Invia un pull request<br/>
-- Contattami via mail - [mail](giuseppe@compagno.cloud)<br/>
+- Contattami via mail - [mail](mailto:giuseppe@compagno.cloud)<br/>
 
 
 ## 🔍 Version History
@@ -57,5 +53,3 @@ Per un supporto o aiuto:<br/>
 
 
 --- ❤️ by Giuseppe ♾️ ---
-
->>>>>>> eb9147c (Fase iniziale)
